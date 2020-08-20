@@ -1,7 +1,6 @@
 {
-  "name": "LongLijituan",
+  "name": "longlijituan",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vant-weapp": "^0.5.28"
-  }
+    "vant-weapp": "^1.0.0-beta.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisWYZ/Applets--longlijituan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChrisWYZ/Applets--longlijituan/issues"
+  },
+  "homepage": "https://github.com/ChrisWYZ/Applets--longlijituan#readme",
+  "description": ""
 }

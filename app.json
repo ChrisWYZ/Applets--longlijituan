@@ -11,7 +11,9 @@
     "van-cell-group": "/miniprogram_npm/vant-weapp/cell-group/index",
     "van-nav-bar": "/miniprogram_npm/vant-weapp/nav-bar/index",
     "van-icon": "/miniprogram_npm/vant-weapp/icon/index",
-    "van-search": "/miniprogram_npm/vant-weapp/search/index"
+    "van-search": "/miniprogram_npm/vant-weapp/search/index",
+    "van-grid": "/miniprogram_npm/vant-weapp/grid/index",
+    "van-grid-item": "/miniprogram_npm/vant-weapp/grid-item/index"
   },
   "sitemapLocation": "sitemap.json"
 }
