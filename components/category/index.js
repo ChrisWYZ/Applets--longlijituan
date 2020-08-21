@@ -2,7 +2,7 @@
 Page({
   data: {
     //tabbar底部导航栏的事件
-    active: 'home',
+    active: 'sort',
   },
   onChange(event) {
     this.setData({ active: event.detail });
@@ -14,10 +14,10 @@ Page({
   onClickRight() {
     wx.showToast({ title: '点击按钮', icon: 'none' });
   },
-  //导航路由跳转
-  goToB(){
+  //微信自带的路由跳转
+  goHome(){
     wx.reLaunch({
-      url:'../category/index'
+      url:'../home/index'
     })
   }
   

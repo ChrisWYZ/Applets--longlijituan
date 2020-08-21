@@ -1,6 +1,7 @@
 {
   "pages": [
-    "components/home/index"
+    "components/home/index",
+    "components/category/index"
 
   ],
   "usingComponents": {
@@ -13,7 +14,15 @@
     "van-icon": "/miniprogram_npm/vant-weapp/icon/index",
     "van-search": "/miniprogram_npm/vant-weapp/search/index",
     "van-grid": "/miniprogram_npm/vant-weapp/grid/index",
-    "van-grid-item": "/miniprogram_npm/vant-weapp/grid-item/index"
+    "van-grid-item": "/miniprogram_npm/vant-weapp/grid-item/index",
+    "van-notice-bar": "/miniprogram_npm/vant-weapp/notice-bar/index"
+    
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "隆利源国际贸易",
+    "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
 }

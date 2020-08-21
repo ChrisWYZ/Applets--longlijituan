@@ -1,0 +1,10 @@
+
+  /* .q {
+    width:100%;background-color: rgb(101, 34, 34);
+  } */
+  .guding{
+    z-index: 1001;
+    position:sticky;
+    bottom: 0;
+    left: 0;
+  }
