@@ -1,7 +1,11 @@
 {
   "pages": [
     "components/home/index",
-    "components/category/index"
+    "components/category/index",
+    "components/longliyuan/index",
+    "components/shopping/index",
+    "components/myzone/index"
+
 
   ],
   "usingComponents": {
@@ -15,7 +19,16 @@
     "van-search": "/miniprogram_npm/vant-weapp/search/index",
     "van-grid": "/miniprogram_npm/vant-weapp/grid/index",
     "van-grid-item": "/miniprogram_npm/vant-weapp/grid-item/index",
-    "van-notice-bar": "/miniprogram_npm/vant-weapp/notice-bar/index"
+    "van-notice-bar": "/miniprogram_npm/vant-weapp/notice-bar/index",
+    "van-tree-select": "/miniprogram_npm/vant-weapp/tree-select/index",
+    "van-goods-action": "/miniprogram_npm/vant-weapp/goods-action/index",
+    "van-goods-action-icon": "/miniprogram_npm/vant-weapp/goods-action-icon/index",
+    "van-goods-action-button": "/miniprogram_npm/vant-weapp/goods-action-button/index","van-card": "/miniprogram_npm/vant-weapp/card/index",
+    "van-stepper": "/miniprogram_npm/vant-weapp/stepper/index",
+    "van-swipe-cell": "/miniprogram_npm/vant-weapp/swipe-cell/index",
+    "van-submit-bar": "/miniprogram_npm/vant-weapp/submit-bar/index",
+    "van-checkbox": "/miniprogram_npm/vant-weapp/checkbox/index",
+    "van-checkbox-group": "/miniprogram_npm/vant-weapp/checkbox-group/index"
     
   },
   "window": {

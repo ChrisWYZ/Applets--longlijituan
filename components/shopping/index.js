@@ -1,13 +1,25 @@
 
 Page({
+  
   data: {
+    number:1,
+    item:{
+      quantity:3,
+      goods:{
+        price:2000,
+        title:"彭于晏"
+      }
+    },
+    //分类选择树
+    mainActiveIndex: 0,
+    activeId: null,
     //tabbar底部导航栏的事件
-    active: 'home',
+    active: 'shoppingcar',
   },
   onChange(event) {
     this.setData({ active: event.detail });
   },
-  //nav-bar的点击事件(测试用)
+  //nav-bar的点击事件（测试用）
   onClickLeft() {
     wx.showToast({ title: '成功', icon: 'success' });
   },
@@ -40,6 +52,19 @@ Page({
       url:'../longliyuan/index'
     })
   },
+  //分类选择的触摸事件
+  onClickNav({ detail = {} }) {
+    this.setData({
+      mainActiveIndex: detail.index || 0,
+    });
+  },
+
+  onClickItem({ detail = {} }) {
+    const activeId = this.data.activeId === detail.id ? null : detail.id;
+
+    this.setData({ activeId });
+  },
+  //onChange监听步进器
   
   
 });

@@ -1,0 +1,15 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-button":"/miniprogram_npm/vant-weapp/button/index",
+    "van-goods-action": "/miniprogram_npm/vant-weapp/goods-action/index",
+    "van-goods-action-icon": "/miniprogram_npm/vant-weapp/goods-action-icon/index",
+    "van-goods-action-button": "/miniprogram_npm/vant-weapp/goods-action-button/index",
+    "van-card": "/miniprogram_npm/vant-weapp/card/index",
+    "van-stepper": "/miniprogram_npm/vant-weapp/stepper/index",
+    "van-swipe-cell": "/miniprogram_npm/vant-weapp/swipe-cell/index",
+    "van-submit-bar": "/miniprogram_npm/vant-weapp/submit-bar/index",
+    "van-checkbox": "/miniprogram_npm/vant-weapp/checkbox/index",
+    "van-checkbox-group": "/miniprogram_npm/vant-weapp/checkbox-group/index"
+  }
+}

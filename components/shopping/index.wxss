@@ -1,0 +1,20 @@
+
+  /* .q {
+    width:100%;background-color: rgb(101, 34, 34);
+  } */
+  .guding{
+    z-index: 1001;
+    position:sticky;
+    bottom: 0;
+    left: 0;
+  }
+.van-swipe-cell__right {
+  display: inline-block;
+  width: 65px;
+  height: 44px;
+  font-size: 15px;
+  line-height: 44px;
+  color: #fff;
+  text-align: center;
+  background-color: #f44;
+}

@@ -1,0 +1,53 @@
+  <view>
+    <view>
+      <van-notice-bar
+        left-icon="volume-o"
+        text="注意：有意向购买的客户请直接联系我们"
+      />
+    </view>
+
+    <view>
+    <block custom-class="q" >
+      <van-nav-bar title="隆利源" >
+        <van-icon  name="search" slot="right" />
+      </van-nav-bar>
+    </block>
+    </view>
+  </view>
+  <van-card
+    desc="描述信息"
+    title="欧洲废纸原浆"
+    thumb="{{ 'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3296936840,3219839157&fm=26&gp=0.jpg' }}"
+  >
+    <view slot="footer">
+      <van-button size="mini">立即下单</van-button>
+    </view>
+  </van-card>
+  <van-card
+    desc="描述信息"
+    title="欧洲废纸原浆"
+    thumb="{{ 'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2579472107,2950192314&fm=26&gp=0.jpg' }}"
+  >
+    <view slot="footer">
+      <van-button size="mini">立即下单</van-button>
+    </view>
+  </van-card>
+  <van-card
+    desc="描述信息"
+    title="美国废纸原浆"
+    thumb="{{ 'https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2352374332,1888680766&fm=26&gp=0.jpg' }}"
+  >
+    <view slot="footer">
+      <van-button size="mini">立即下单</van-button>
+    </view>
+  </van-card>
+      
+  <view>
+    <van-tabbar active="{{ active }}" bind:change="onChange" class="guding">
+      <van-tabbar-item name="home" icon="home-o" bindtap="goToMyhome">首页</van-tabbar-item>
+      <van-tabbar-item name="sort" icon="bag-o" bindtap="goToCategory">分类</van-tabbar-item>
+      <van-tabbar-item name="mine" icon="friends-o" bindtap="goToLongliyuan">隆利源</van-tabbar-item>
+      <van-tabbar-item name="shoppingcar" icon="shopping-cart-o" bindtap="goToShopping">购物车</van-tabbar-item>
+      <van-tabbar-item name="myzone" icon="user-o" bindtap="goToMyzone">个人</van-tabbar-item>
+    </van-tabbar>
+  </view>

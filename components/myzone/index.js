@@ -1,8 +1,12 @@
 
 Page({
   data: {
+   
+    //分类选择树
+    mainActiveIndex: 0,
+    activeId: null,
     //tabbar底部导航栏的事件
-    active: 'home',
+    active: 'myzone',
   },
   onChange(event) {
     this.setData({ active: event.detail });
@@ -39,6 +43,18 @@ Page({
     wx.reLaunch({
       url:'../longliyuan/index'
     })
+  },
+  //分类选择的触摸事件
+  onClickNav({ detail = {} }) {
+    this.setData({
+      mainActiveIndex: detail.index || 0,
+    });
+  },
+
+  onClickItem({ detail = {} }) {
+    const activeId = this.data.activeId === detail.id ? null : detail.id;
+
+    this.setData({ activeId });
   },
   
   
