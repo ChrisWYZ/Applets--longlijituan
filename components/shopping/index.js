@@ -1,8 +1,7 @@
-
 Page({
   
   data: {
-    number:1,
+    value:1,
     item:{
       quantity:3,
       goods:{
@@ -64,7 +63,7 @@ Page({
 
     this.setData({ activeId });
   },
-  //onChange监听步进器
+  //bind:plus和bind:mius
   
   
 });

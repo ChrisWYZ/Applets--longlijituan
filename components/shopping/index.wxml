@@ -23,12 +23,12 @@
         thumb="{{'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2579472107,2950192314&fm=26&gp=0.jpg'}}"
       >
       <view slot="bottom">
-        <van-stepper value="{{ number }}" bind:change="onListening" />
+        <van-stepper value="{{ value }}" data-index="{{index}}" bind:plus="plus" bind:minus="minus"/>
       </view>
     </van-card>
     <view slot="right">删除</view>
   </van-swipe-cell>
-  <van-submit-bar price="{{ item.goods.price * number * 100}}" button-text="提交订单" bind:submit="onSubmit" />
+  <van-submit-bar price="{{ item.goods.price * value * 100}}" button-text="提交订单" bind:submit="onSubmit" />
 </view>
 <!-- 购物车结束 -->
 
