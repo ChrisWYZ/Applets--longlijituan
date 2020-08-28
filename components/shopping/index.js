@@ -64,7 +64,7 @@ Page({
     this.setData({ activeId });
   },
   //bind:plus和bind:mius
-  //写不出来了
+  //
   
   
 });
