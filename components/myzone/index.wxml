@@ -7,10 +7,21 @@
 
 <view>
 <block custom-class="q" >
-  <van-nav-bar title="隆利源" >
+  <van-nav-bar title="个人中心" >
     <van-icon  name="search" slot="right" />
   </van-nav-bar>
 </block>
+</view>
+<view>
+  <van-cell-group>
+    <van-cell title="我的订单" disabled="ture" />
+    <van-cell title="我的订单" disabled="ture" />
+    <van-cell title="我的订单" disabled="ture" />
+    <van-cell title="我的订单" disabled="ture" />
+    <van-cell title="我的订单" disabled="ture" />
+    <van-cell title="我的订单" disabled="ture" />
+
+  </van-cell-group>
 </view>
 
 <view>
