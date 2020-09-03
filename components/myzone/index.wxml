@@ -17,7 +17,6 @@
     <van-cell title="我的订单" disabled="ture" />
     <van-cell title="常用地址" disabled="ture" />
     <van-cell title="退出" disabled="ture" />
-
   </van-cell-group>
 </view>
 
